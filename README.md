@@ -1,6 +1,6 @@
 # SwapStore - Full Stack E-commerce Platform
 
-SwapStore is a modern e-commerce platform built with the MERN stack (MongoDB, Express.js, React, Node.js). It provides a seamless shopping experience with features like user authentication, product management, order processing, and more.
+SwapStore is a modern e-commerce platform built with the MERN stack (MongoDB, Express.js, React, Node.js). It provides a smooth shopping experience with features like user authentication, product management, order processing, and many more.
 
 ## 🚀 Features
 
@@ -66,7 +66,7 @@ SwapStore is a modern e-commerce platform built with the MERN stack (MongoDB, Ex
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/SwapStore.git
+git clone https://github.com/4thQ/SwapStore.git
 cd SwapStore
 ```
 
@@ -90,28 +90,8 @@ Backend (.env):
 
 ```
 PORT=5000
-ACCESS_TOKEN_SECRET_KEY=your_secret_key
-ACCESS_TOKEN_EXPIRY=10h
-REFRESH_TOKEN_SECRET_KEY=your_refresh_secret
-REFRESH_TOKEN_EXPIRY=1y
-DEBUG_MODE=false
-DB_URL=your_mongodb_url
-WEBSITE_DOMAIN=your_frontend_url
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-CLOUDINARY_SECURE=true
-SMTP_HOST=your_smtp_host
-SMTP_PORT=your_smtp_port
-MAIL_USER=your_mail_user
-MAIL_PASSWORD=your_mail_password
 ```
 
-Frontend (.env):
-
-```
-VITE_API_URL=your_backend_url
-```
 
 ## 🚀 Running the Application
 
@@ -224,23 +204,13 @@ npm run dev
 - `GET /api/orders/notifications` - Get notifications
 - `GET /api/orders/notifications/markAsRead` - Mark notifications as read
 
-## 🌐 Deployment
-
-The application is deployed on Vercel:
-
-- Frontend: [Your Frontend URL]
-- Backend: [Your Backend URL]
-
-## 📝 API Documentation
-
-The API documentation is available at `/api-docs` when running the backend server.
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch 
+3. Commit your changes 
+4. Push to the branch 
 5. Open a Pull Request
 
 ## 📄 License
@@ -249,7 +219,7 @@ This project is licensed under the ISC License.
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- Nirajan Gurung - 
 
 ## 🙏 Acknowledgments
 
